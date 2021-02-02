@@ -21,8 +21,8 @@
 </head>
 <body>
     <div id="app">
-        <nav class="navbar navbar-expand-md navbar-light bg-white shadow-sm">
-            <div class="container zg">
+        <nav class="navbar navbar-expand-md navbar-light bg-white shadow-sm fixed-top">
+            <div class="container nav-zg">
                 <a class="navbar-brand d-flex" href="{{ url('/') }}">
                     <div><img src="/svg/ig logo.svg" style="height: 30px; border-right: 1px solid #333;" class="pr-3"></div>
                     <div class="pl-3">Zerogram</div>

@@ -2,7 +2,7 @@
 
 @section('content')
 <div class="container zg">
-    <div class="row">
+    <div class="row post">
         <div class="col-8">
             <img src="/storage/{{ $post->image }}" class="w-100 mx-auto d-block">
         </div>

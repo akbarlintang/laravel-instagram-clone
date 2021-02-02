@@ -10903,8 +10903,20 @@ a.text-dark:focus {
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
 }
 
+.nav-zg {
+  padding-left: 30vh;
+  padding-right: 30vh;
+}
+
 .zg {
   padding-left: 30vh;
   padding-right: 30vh;
+  margin-top: 4em;
+}
+
+.zg .post {
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 20px 5px;
 }
 
