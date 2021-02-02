@@ -51,4 +51,20 @@ class PostsController extends Controller
     {
         return view('posts.show', compact('post'));
     }
+
+    public function edit(Post $post)
+    {
+        return view('posts.edit', compact('post'));
+    }
+    
+    public function update(Post $post)
+    {
+        $data = request()->validate([
+            'caption' => 'required',
+        ]);
+
+        auth()->user()->posts()->update($data);
+
+        return redirect("/p/{$post->id}");
+    }
 }

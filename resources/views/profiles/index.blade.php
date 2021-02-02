@@ -14,11 +14,15 @@
                 <div class="d-flex pb-3 align-items-center">
                     <div class="h2">{{ $user->username }}</div>
 
-                    <follow-button user-id="{{ $user->id }}" follows="{{ $follows }}"></follow-button>
+                    @can ('update', $user->profile)
+                        
+                    @else
+                        <follow-button user-id="{{ $user->id }}" follows="{{ $follows }}"></follow-button>
+                    @endcan
                 </div>
 
                 @can ('update', $user->profile)
-                    <a href="/p/create">New Post</a>
+                    <a href="/p/create" class="pb-3">New Post</a>
                 @endcan
             </div>
 

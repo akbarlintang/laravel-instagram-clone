@@ -20,6 +20,11 @@
                             |
                             <a href="#" class="pl-1">Follow</a>
                         </span>
+                        @can ('update', $post->user->profile)
+                            <div>
+                                <a href="/p/{{ $post->id }}/edit">Edit Post</a>
+                            </div>
+                        @endcan
                     </div>
                 </div>
 
