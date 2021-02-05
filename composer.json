@@ -14,7 +14,7 @@
         "intervention/image": "^2.5",
         "laravel/framework": "5.8.*",
         "laravel/tinker": "^1.0",
-        "phpseclib/bcmath_compat": "^2.0",
+        "phpseclib/bcmath_compat": "2.0.0",
         "phpseclib/phpseclib": "^3.0"
     },
     "require-dev": {
