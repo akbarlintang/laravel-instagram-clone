@@ -9,14 +9,15 @@
     "license": "MIT",
     "require": {
         "php": "^7.4.0",
+        "ext-bcmath": "*",
         "dnoegel/php-xdg-base-dir": "^0.1.1",
         "fideloper/proxy": "^4.0",
         "intervention/image": "^2.5",
         "laravel/framework": "5.8.*",
         "laravel/tinker": "^1.0",
+        "moontoast/math": "1.1.2 as 1.999.999",
         "phpseclib/bcmath_compat": "2.0.0",
-        "phpseclib/phpseclib": "3.0.4",
-        "ext-bcmath": "*"
+        "phpseclib/phpseclib": "3.0.4"
     },
     "require-dev": {
         "beyondcode/laravel-dump-server": "^1.0",
